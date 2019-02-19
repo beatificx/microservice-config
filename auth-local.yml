@@ -1,0 +1,30 @@
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+
+server:
+  port: 9999
+#  ssl:
+#    key-store: classpath:server.jks
+#    key-store-password: password
+#    key-password: password
+  contextPath : /uaa
+
+logging:
+  level:
+    ROOT: WARN
+
+security:
+  user:
+    password: password
+#  ignored: /css/**,/js/**,/favicon.ico,/webjars/**
+#  oauth2:
+#    client:
+#      clientId: acme
+#      clientSecret: acmesecret
+#      authorized-grant-types: authorization_code,refresh_token,implicit,password,client_credentials
+#      scope : read,write
+#    resource:
+#      user-info-uri: http://localhost:9999/uaa/user
