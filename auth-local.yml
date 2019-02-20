@@ -28,3 +28,10 @@ security:
 #      scope : read,write
 #    resource:
 #      user-info-uri: http://localhost:9999/uaa/user
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
