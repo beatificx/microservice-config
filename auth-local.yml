@@ -17,16 +17,16 @@ logging:
     ROOT: WARN
 
 security:
-  user:
-    name: user
-    password: test
+#  user:
+#    name: user
+#    password: test
   ignored: /css/**,/js/**,/favicon.ico,/webjars/**
   oauth2:
-    client:
-      clientId: acme
-      clientSecret: acmesecret
-      authorized-grant-types: authorization_code,refresh_token,implicit,password,client_credentials
-      scope : read,write
+#    client:
+#      clientId: acme
+#      clientSecret: acmesecret
+#      authorized-grant-types: authorization_code,refresh_token,implicit,password,client_credentials
+#      scope : read,write
     resource:
       user-info-uri: http://localhost:9999/uaa/user
 
