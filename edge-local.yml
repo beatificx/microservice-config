@@ -72,6 +72,6 @@ zuul:
 #      path: /resource/**
 #      url: http://localhost:9000
 
-#logging:
-#  level: 
-#    ROOT : DEBUG
+logging:
+  level: 
+    ROOT : DEBUG
