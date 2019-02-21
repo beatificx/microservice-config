@@ -12,10 +12,6 @@ server:
 #    key-password: password
   contextPath : /uaa
 
-logging:
-  level:
-    ROOT: WARN
-
 security:
 #  user:
 #    name: user
