@@ -35,4 +35,5 @@ eureka:
       
 logging:
   level: 
-    ROOT : DEBUG
+    ROOT : ERROR
+    org.springframework.web : DEBUG
